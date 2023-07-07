@@ -103,6 +103,10 @@ h2 {
 }
 
 /* main section style */
+.main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section styles */
 .about {
@@ -126,4 +130,15 @@ h2 {
     font-size: 18px;
 
 
+}
+.about-info-container{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 20px;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }
