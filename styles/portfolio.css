@@ -61,12 +61,13 @@ h2 {
 /* header styles */
 
 .header {
+    height: 70vh;
+    width: 100vw;
     background-color: #FFF8F3;
-    ;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 500px;
+    background-position: bottom right, bottom left;
+
 }
 
 .banner {
@@ -77,7 +78,8 @@ h2 {
 }
 
 .banner-profile {
-    width: 300px;
+    width: 480px;
+    position: relative;
 }
 
 .banner-greeting {
@@ -122,6 +124,8 @@ h2 {
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .section-description {
@@ -177,18 +181,38 @@ h2 {
 
 .resume-container {
     display: flex;
-    gap: 30px
-    ;
+    gap: 40px;
 }
 
 .resume-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
-.resume-items{
-    padding: 10px;
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
-.resume-item-title{
-    
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+#button{
+    text-align: center;
 }
